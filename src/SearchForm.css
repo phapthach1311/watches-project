@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+}
+
+.search_form{
+    margin: 10px 5px;
+}
+
+.search_input{
+    width: 60vw;
+    height: 35px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    border-color: transparent;
+    background-color: rgb(228, 228, 228);
+}
+
+.search_input:active{
+    border-color: red;
+}
+
+.search_btn{
+    height: 35px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0 30px;
+    border: none;
+    background-color: rgb(163, 27, 27);
+    letter-spacing: 2px;
+}
+
+.search_btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}

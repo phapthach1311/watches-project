@@ -1,0 +1,39 @@
+*,::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.footer{
+    margin-top: 50px;
+    background-color: black;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    /* position: absolute;
+    bottom: 0;
+    width: 100vw; */
+}
+
+.address{
+    color: rgb(163, 163, 163);
+    max-width: 400px;
+}
+
+h3{
+    color: white;
+}
+
+.gmail{
+    color: white;
+}
+
+.address_info{
+    color: rgb(219, 219, 219);
+}
+
+.delivery{
+    font-size: 14px;
+}
