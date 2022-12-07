@@ -1,0 +1,29 @@
+.search_form {
+  margin: 10px 20px;
+}
+
+.search_form .search_input {
+  width: 60vw;
+  height: 35px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  border-color: transparent;
+  background-color: #e4e4e4;
+}
+
+.search_form .search_btn {
+  height: 35px;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  padding: 0 30px;
+  border: none;
+  background-color: #a31b1b;
+  letter-spacing: 2px;
+}
+
+.search_form .search_btn:hover {
+  background-color: red;
+}
+/*# sourceMappingURL=searchform.css.map */

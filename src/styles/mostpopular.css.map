@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAP,uDAAO;AAEP,AAAA,QAAQ,CAAA;EACJ,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;CACrB",
+    "sources": [
+        "mostpopular.scss"
+    ],
+    "names": [],
+    "file": "mostpopular.css"
+}

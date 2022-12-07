@@ -1,11 +1,37 @@
-*,::before,::after{
+/* *, ::before, ::after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.fa-fire{
-    color: red;
-    font-size: 30px;
-    margin-right: 10px;
+.most_popular_products{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.category_item{
+    display: flex;
+    align-items: center;
+    margin: 30px 30px 0;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.fa-fire{
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.most_popular_img{
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 850px) {
+    .best_sale_products{
+        justify-content: center;
+    }
+} */

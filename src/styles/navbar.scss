@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+$textColor: rgb(187, 187, 187);
+$navbarBackgroundColor: rgb(48, 48, 48);
+
+@mixin flexCenter{
+    display: flex;
+    align-items: center;
+}
+@mixin iconStyle($fontSize, $backgroundColor){
+    border: none;
+    cursor: pointer;
+    font-size: $fontSize;
+    background-color: $backgroundColor;
+}
+@mixin amountStyle($top, $right){
+    position: absolute;
+    top: $top;
+    right: $right;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 0 5px;
+    min-width: 30px;
+    text-align: center;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: $navbarBackgroundColor;
+    letter-spacing: 2px;
+}
+
+.navbar_header{
+    margin-left: 100px;
+    .logo_brand{
+        @include iconStyle(60px, transparent);
+        color: white;
+    }
+}
+
+.link{
+    color: $textColor;
+    text-decoration: none;
+    &:hover{
+        color: white;
+    }
+}
+
+.sign_cart_btn{
+    @include flexCenter();
+    .sign_in_btn{
+        @include iconStyle(17px, rgb(163, 27, 27));
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: white;
+        display: block;
+        &:hover{
+            background-color: red;
+        }
+    }
+    
+    .cart_amount{
+        position: relative;
+        &:hover .navbar_cart_logo{
+            color: white;
+        }
+        .navbar_cart_logo{
+            @include iconStyle(30px, transparent);
+            margin-left: 10px;
+            color: $textColor;
+        }
+    }
+}
+
+@media screen and (min-width: 850px) {   
+    .navbar{
+        height: fit-content;
+        @include flexCenter();
+        justify-content: space-between;
+    }
+
+    .menu_icon{
+        display: none;
+    }
+
+    .navbar_cart_logo{
+        margin-right: 100px;
+    }
+
+    .navbar_links_container{
+        height:  auto !important;
+        .links{
+            display: flex;
+        }
+        ul{
+            .link{
+                margin: 0 20px;
+            }
+        }
+    }
+
+    .amount{
+        @include amountStyle(-15px, 80px)
+    }
+
+    .active{
+        color: white;
+        border-bottom: 4px solid red;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .navbar_header{
+        margin-left: 20px;
+        @include flexCenter();
+        .menu_icon{
+            margin-right: 10px;
+            transition: 0.5s;
+            color: $textColor;
+            @include iconStyle(25px, transparent);
+            &:hover{
+                transform: rotate(90deg);
+                color: white;
+            }
+        }
+    }
+
+    .navbar_links_container{
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+        ul{
+            .link{
+                padding: 10px;
+                transition: 0.3s;
+                cursor: pointer;
+                display: block;
+                &:hover{
+                    padding-left: 25px;
+                    background-color: rgb(255, 255, 255);
+                    opacity: 1;
+                    color: rgb(0, 0, 0);
+                }
+            }         
+        }
+    }
+
+    .sign_cart_btn{
+        position: fixed;
+        right: 30px;
+        top: 20px;
+        .amount{
+            @include amountStyle(-15px, -20px)
+        }
+    }  
+}

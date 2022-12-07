@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAP,sDAAO;AAEP,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,WAAW;EACnB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;CAMnB;;AAXD,AAMI,cANU,CAMV,QAAQ,CAAA;EACJ,KAAK,EAAE,GAAG;EACV,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;CACrB",
+    "sources": [
+        "bestsales.scss"
+    ],
+    "names": [],
+    "file": "bestsales.css"
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.footer{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    .contact_info, .about_us, .connect_with_us{
+        margin-bottom: 20px;
+        h4{
+            text-align: center;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgb(255, 255, 255);
+        }
+        .info{
+            padding-top: 10px;   
+            p{
+                margin: 5px;
+                i{
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+.fa-facebook{
+    color: rgb(0, 99, 212);
+    background-color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.fa-instagram{
+    color: rgb(187, 53, 76);
+    background-color: white;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 850px) {
+    .footer{
+        flex-direction: column;
+        padding: 20px 100px;
+    }
+}

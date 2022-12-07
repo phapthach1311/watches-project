@@ -1,0 +1,116 @@
+@import './products.css';
+
+.category_item{
+    display: flex;
+    align-items: center;
+    margin: 30px 30px 0;
+    font-size: 22px;
+    font-weight: 900;
+    .fa-bolt{
+        color: red;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+}
+
+// .products{
+//     font-family: 'Poppins', sans-serif;
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//     .product{
+//         max-width: 250px;
+//         margin: 10px 15px;
+//         cursor: pointer;
+//         padding: 10px;
+//         background-color: white;
+//         border-bottom: 2px solid rgb(136, 136, 136);
+//         position: relative;
+//         overflow: hidden;
+//         .product_info{
+//             text-decoration: none;
+//             display: grid;
+//             color: black;
+//             grid-template-rows: auto auto auto;
+//             .product_img{
+//                 height: 200px;
+//                 display: block;
+//                 margin: 0 auto 10px;
+//             }
+//             .product_name, .product_price, .product_rating{
+//                 margin-bottom: 5px;
+//             }
+//             .product_price{
+//                 color: rgb(163, 27, 27);
+//             }
+//             .product_old_price{
+//                 margin-left: 1rem;
+//                 color: rgb(104, 104, 104);
+//                 font-size: 15px;
+//                 text-decoration: line-through;
+//             }
+//             .product_rating{
+//                 display: flex;
+//                 p{
+//                     color: red;
+//                 }
+//             }
+//         }
+//         .product_add_btn{
+//             @include activeBtn();
+//             text-align: center;
+//             border-color: transparent;
+//             padding: 5px;
+//             width: 35px;
+//             height: 35px;
+//             font-size: 17px;
+//             cursor: pointer;
+//             border-radius: 50%;
+//             display: block;
+//             position: absolute;
+//             top: 0px;
+//             left: 0px;
+//             transform: translateX(-100%);
+//             opacity: 0;
+//             transition: 0.3s ease;
+//             &:hover{
+//                 background-color: rgb(255, 0, 0);
+//             }
+//         }
+//         &:hover .product_add_btn{
+//             transform: translateX(50%);
+//             opacity: 1;   
+//         }          
+        
+//     }   
+// }
+
+
+// .best_sale_products{
+//     margin: 0 auto;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+// }
+
+// .fa-star{
+//     color: red;
+// }
+
+// .item{
+//     width: 220px;
+//     border-bottom: 2px solid rgb(122, 122, 122);
+//     padding: 0;
+//     margin: 50px;
+//     .best_sale_img{
+//         display: block;
+//         width: 120px;
+//         margin: 0 auto;
+//     }
+// }
+
+// .toLink{
+//     text-decoration: none;
+//     color: black;
+//     background-color: wheat;
+// }

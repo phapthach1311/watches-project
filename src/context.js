@@ -1,5 +1,5 @@
 import React, {useEffect, useReducer, useContext} from 'react'
-import items from './data';
+import items from './Data/data';
 
 const AppContext = React.createContext();
 const initialState =  {

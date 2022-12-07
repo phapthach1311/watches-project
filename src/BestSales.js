@@ -1,22 +1,22 @@
 import React from 'react'
-import { useGlobalContext } from './context'
 import items from './Data/data'
 import { Link } from 'react-router-dom'
-import './styles/mostpopular.css'
+import './styles/bestsales.css'
+import { useGlobalContext } from './context'
 
-export const MostPopular = () => {
+export const BestSales = () => {
     const {add} = useGlobalContext();
-
+    
     return (
-        <div className='most_popular'>
+        <div className='best_sale'>
             <div className='category_item'>
-                <i className='fa fa-fire'></i>
-                <p>Most Popular</p>
+                <i className='fa fa-bolt'></i>
+                <p>Best Sales</p>
             </div>
             <div className='products'>
                 {items.map(item => {
                     const {id, img, name, price, stars, oldPrice} = item;
-                    if(item.quality === "most_popular"){
+                    if(item.quality === "best_sale"){
                         return <div className="product" key={id}>
                         <Link to={`./singleproduct/${id}`} className="product_info">
                             <img src={img} alt={name} className='product_img' />
@@ -31,7 +31,6 @@ export const MostPopular = () => {
                     }
                 })}
             </div>
-            
         </div>
     )
 }

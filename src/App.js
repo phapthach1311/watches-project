@@ -1,12 +1,12 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import { Home } from './Home';
-import { ProductsPage } from './ProductsPage';
-import { CartPage } from './CartPage';
-import { SingleProductPage } from './SingleProductPage';
-import { AboutPage } from './AboutPage';
-import { ContactPage } from './ContactPage';
-import { Navbar } from './Navbar';
-
+import { Home } from './Pages/Home';
+import { ProductsPage } from './Pages/ProductsPage';
+import { CartPage } from './Pages/CartPage';
+import { SingleProductPage } from './Pages/SingleProductPage';
+import { AboutPage } from './Pages/AboutPage';
+import { ContactPage } from './Pages/ContactPage';
+import { Navbar } from './Component/Navbar';
+// import './styles/style.css'
 function App() {
   return (
     <Router>

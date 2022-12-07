@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.footer {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 100px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #494949;
+  color: white;
+}
+
+.footer .contact_info, .footer .about_us, .footer .connect_with_us {
+  margin-bottom: 20px;
+}
+
+.footer .contact_info h4, .footer .about_us h4, .footer .connect_with_us h4 {
+  text-align: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid white;
+}
+
+.footer .contact_info .info, .footer .about_us .info, .footer .connect_with_us .info {
+  padding-top: 10px;
+}
+
+.footer .contact_info .info p, .footer .about_us .info p, .footer .connect_with_us .info p {
+  margin: 5px;
+}
+
+.footer .contact_info .info p i, .footer .about_us .info p i, .footer .connect_with_us .info p i {
+  margin-right: 5px;
+}
+
+.fa-facebook {
+  color: #0063d4;
+  background-color: white;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.fa-instagram {
+  color: #bb354c;
+  background-color: white;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 100px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

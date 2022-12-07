@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.cart_items {
+  min-height: 100vh;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.cart_items h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #9c2f2f;
+}
+
+.cart_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  max-width: 700px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-bottom: 3px dotted #b18b8b;
+  padding: 5px;
+}
+
+.cart_item img {
+  width: 100px;
+  margin: 0 20px;
+}
+
+.cart_item .info_cart .name_cart,
+.cart_item .info_cart .price_cart,
+.cart_item .info_cart .toggle_btn,
+.cart_item .info_cart .all_cost,
+.cart_item .info_cart .remove_btn {
+  margin-bottom: 5px;
+}
+
+.cart_item .info_cart .toggle_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart_item .info_cart .toggle_btn .cart_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* flex-direction: column; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart_item .info_cart .toggle_btn .cart_btn .fa {
+  padding: 5px 10px;
+  background-color: transparent;
+  font-size: 16px;
+  color: #9c2f2f;
+  border: none;
+  cursor: pointer;
+}
+
+.cart_item .info_cart .toggle_btn .cart_btn .fa:hover {
+  color: red;
+}
+
+.cart_item .info_cart .toggle_btn .cart_btn p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #9c2f2f;
+  margin: 0 5px;
+}
+
+.cart_item .info_cart .remove_btn {
+  background-color: #3d3d3d;
+  color: white;
+  padding: 5px 20px;
+  border-color: transparent;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.cart_item .info_cart .remove_btn:hover {
+  background-color: black;
+}
+
+.cart_item .info_cart span {
+  margin-right: 10px;
+}
+
+/* span, .quantity{
+    font-weight: bold;
+    background-color: rgb(184, 78, 78);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+} */
+/* @media screen and (max-width: 850px) {
+    .cart_item{
+        flex-direction: column;
+        align-items: center; 
+            width: fit-content;
+            margin: 0 auto;
+            padding: 0 50px;
+    }
+} */
+/* 
+.payment{
+    position: fixed;
+    right: 100px;
+    top: 150px;
+    color:rgb(156, 47, 47);
+    width: 200px;
+    height: 150px;
+    border: 2px solid red;
+} */
+/*# sourceMappingURL=cartitems.css.map */

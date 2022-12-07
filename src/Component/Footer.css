@@ -1,0 +1,54 @@
+/* .footer{
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.info{
+    padding-top: 10px;   
+}
+
+p{
+    line-height: 30px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.fa-facebook{
+    color: blue;
+    background-color: white;
+    font-size: 20px;
+}
+
+.fa-instagram{
+    color: rgb(187, 53, 76);
+    background-color: white;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact_info, .about_us{
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 850px) {
+    .footer{
+        flex-direction: column;
+        padding: 20px 100px;
+    }
+
+} */
